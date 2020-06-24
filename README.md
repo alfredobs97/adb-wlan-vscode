@@ -20,9 +20,22 @@ You have to had installed ADB to connect your device
 [How to install](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 
+## Steps
+
+First, you need to connect your device with USB, you can check the device is connected with this command:
+
+```bash 
+$ adb devices
+```
+
+When you connect the device with the extensions, you can disconnect the USB
+
 ## Release Notes
 
 ### 1.0.0
 
 Initial release of extensions, you can connect manually your device
 
+### 1.0.1
+
+Updated documentation
